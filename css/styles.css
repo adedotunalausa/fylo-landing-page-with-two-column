@@ -1,10 +1,10 @@
-body{
+body {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
 }
 
 /* navigation Bar */
-.navbar{
+.navbar {
   font-family: 'Raleway', sans-serif;
   display: flex;
   align-items: center;
@@ -14,31 +14,31 @@ body{
   padding: 5% 5% 0 5%;
 }
 
-.navbar-items a{
+.navbar-items a {
   text-decoration: none;
   padding-left: 50px;
   color: hsl(243, 87%, 12%);
 }
 
-.fylo-logo a{
+.fylo-logo a {
   width: 50px;
 }
 
 /* First section */
 
-.first-section{
+.first-section {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.first-section-text{
+.first-section-text {
   width: 42%;
   padding-left: 5%;
   margin-top: 12%;
 }
 
-.first-section-image img{
+.first-section-image img {
   width: 45%;
   position: absolute;
   top: 28%;
@@ -46,7 +46,7 @@ body{
   bottom: 30%;
 }
 
-h2{
+.first-section-text h2 {
   font-family: 'Raleway', sans-serif;
   font-size: 2.2rem;
   font-weight: 700px;
@@ -54,13 +54,13 @@ h2{
   color: hsl(243, 87%, 12%);
 }
 
-p{
+.first-section-text p {
   color: hsl(243, 87%, 12%);
   position: relative;
   bottom: 15px;
 }
 
-.get-started-input{
+.get-started-input {
   color: hsl(0, 0%, 75%);
   height: 35px;
   width:260px;
@@ -72,7 +72,12 @@ p{
   bottom: 10px;
 }
 
-.get-started-button{
+.btn-text {
+  color: #fff;
+  text-decoration: none;
+}
+
+.get-started-button {
   color: #fff;
   background-color: hsl(224, 93%, 58%);
   height: 40px;
@@ -81,52 +86,217 @@ p{
   margin-left: 10px;
   position: relative;
   bottom: 10px;
+  box-shadow: 0 1px 5px 0.2px rgba(0, 0, 0, 0.2);
 }
 
 /* Second Section */
 
-.second-section-box{
+.second-section-box {
   padding-top: 17%;
 }
 
-.section-2-curve{
+.section-2-curve {
   width: 100%;
   position: relative;
   top: 18px;
 }
 
-.second-section-inner{
+.second-section-inner {
   background-color: #F9F8FE;
   display: flex;
+  padding: 0 0 7% 0;
 }
 
-.second-section-text{
+.second-section-text {
   width: 80%;
   padding: 3% 0 0 5%;
 }
 
-.second-section-image img{
+.second-section-image img {
   width: 80%;
   margin:15% 0 0 10%;
 }
 
-.second-section-text h2{
-  margin: 0 0 7% 0;
+.second-section-text h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2.2rem;
+  margin: 5% 0 7% 0;
 }
 
-.second-section-text p{
+.second-section-text p {
   width: 76%;
-  font-size: 0.83rem;
+  font-size: 0.86rem;
 }
 
+.arrow-text {
+  color: hsl(170, 45%, 43%);
+}
 
+.arrow {
+  width: 1.1%;
+  position: absolute;
+  left: 194px;
+  top: 1105px;
+}
 
+.short-line {
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  border-color: hsl(170, 45%, 43%);
+  width: 11.2%;
+  position: absolute;
+  left: 5%;
+  top: 1114px;
+}
 
+.testimonial-box {
+  background-color: #fff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  height: 190px;
+  width: 310px;
+  margin-top: 30px;
+  box-shadow: 0 1px 10px 0.5px rgba(0, 0, 0, 0.1);
+}
 
+.quotes {
+  padding: 8% 0 0 11%;
+}
 
+.testimonial-box .testimonial-text {
+  width: 78%;
+  font-size: 0.72rem;
+  line-height: 20px;
+  padding: 1% 0 0 11%;
+  margin-top: 0;
+}
 
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  position: relative;
+  left: 32px;
+}
 
+.testimonial-box .kyle {
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.6rem;
+  font-weight: 700;
+  position: relative;
+  left: 70px;
+  bottom: 40px;
+}
 
+.testimonial-box .founder-huddle {
+  font-size: 0.5rem;
+  position: relative;
+  left: 70px;
+  bottom: 48px;
+}
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* Third Section */
+.third-section {
+  background-color: hsl(238, 22%, 44%);
+  height: 220px;
+  display: flex;
+  padding: 5% 0 0 5%;
+}
+
+.third-section-text {
+  width: 80%;
+}
+
+.third-section-text h3 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.7rem;
+}
+
+.third-section-text p {
+  color: hsl(0, 0%, 90%);
+  font-size: 0.88rem;
+  opacity: 90%;
+}
+
+.call-to-action {
+  margin: 3% 0 0 20%;
+}
+
+.get-started-for-free-input {
+  color: hsl(0, 0%, 75%);
+  height: 38px;
+  width:400px;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 20px;
+  box-shadow: 0 1px 5px 0.2px rgba(0, 0, 0, 0.2);
+}
+
+.get-started-for-free-button {
+  background-color: hsl(224, 93%, 58%);
+  height: 40px;
+  width:180px;
+  border-style:none;
+  border-radius: 3px;
+  margin-top: 15px;
+  box-shadow: 0 1px 5px 0.2px rgba(0, 0, 0, 0.2);
+}
+
+/* Last Section */
+.last-section {
+  background-color: hsl(243, 87%, 12%);
+  display: flex;
+  height: 250px;
+  padding: 7% 0 0 5%;
+}
+
+.last-section p {
+  color: #fff;
+  font-size: 0.78rem;
+}
+
+.last-section-1 {
+  width: 25%;
+}
+
+.email-phone{
+  width: 8%;
+  padding: 0 12px 0 0;
+}
+
+.last-section-1 p {
+  width: 60%;
+}
+
+.last-section-logo {
+  width: 45%;
+}
+
+.last-section-2 {
+  line-height: 2rem;
+  margin: 3% 0 0 5%;
+}
+
+.last-section-3 {
+  line-height: 2rem;
+  margin: 3% 0 0 15%;
+}
+
+.last-section-4 {
+  width: 15%;
+  margin: 3% 0 0 15%;
+}
+
+.fab{
+  color: #fff;
+  padding: 18% 10% 10% 10%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
