@@ -1,0 +1,33 @@
+
+%btn {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 3% 36%;
+  margin: 4% auto;
+  color: #fff;
+  font-size: 0.65rem;
+  background-color: hsl(224, 93%, 58%);
+  box-shadow: 0 1px 5px 0.2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(.95);
+  }
+}
+
+.btn-first-section {
+  @extend %btn;
+}
+
+.btn-third-section {
+  @extend %btn;
+  padding: 4% 29%;
+}
+
+@media (min-width: 900px) {
+  .btn-first-section {
+    padding: 2.2% 10%;
+    font-size: 0.7rem;
+    margin: 2% 2%;
+  }
+}
