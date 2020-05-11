@@ -13,6 +13,8 @@ body {
   font-family: $font-stack1;
 }
 
+
+
 a{
   text-decoration: none;
 }
@@ -66,7 +68,7 @@ nav {
 
 // First Section
 .first-section {
-  margin-bottom: 15%;
+  margin-bottom: 6%;
 
   .first-section-container {
     display: flex;
@@ -82,6 +84,7 @@ nav {
   .first-section-content {
     width: 90%;
     text-align: center;
+    padding-bottom: 3%;
 
     h2 {
       line-height: 2.2rem;
@@ -92,15 +95,19 @@ nav {
       font-size: 0.8rem;
     }
 
-    input {
-      color: hsl(243, 87%, 12%);
-      height: 35px;
-      width: 90%;
-      border-radius: 3px;
-      border-style: solid;
-      border-width: 0.1em;
-      padding-left: 20px;
-      margin-top: 3%;
+    form {
+      height: 150px;
+
+      input {
+        color: hsl(243, 87%, 12%);
+        height: 35px;
+        width: 90%;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0.1em;
+        padding-left: 20px;
+        margin: 3% 0 5% 0;
+      }
     }
   }
 
@@ -113,7 +120,7 @@ nav {
   top: 10px;
 }
 .second-section {
-  background-color: hsl(240, 75%, 98%);
+  background-color: #F8F8FE;
 
   .second-section-container {
     display: flex;
@@ -237,16 +244,20 @@ nav {
       padding: 6% 4%;
     }
 
-    input {
-      color: hsl(0, 0%, 75%);
-      height: 35px;
-      width:240px;
-      border-radius: 3px;
-      border-style: solid;
-      border-width: 0.1em;
-      padding-left: 10px;
-      margin-top: 3%;
-      display: block;
+    form {
+      height: 100px;
+
+      input {
+        color: hsl(0, 0%, 75%);
+        height: 35px;
+        width:240px;
+        border-radius: 3px;
+        border-style: solid;
+        border-width: 0.1em;
+        padding-left: 10px;
+        margin: 3% 0 5% 0;
+        display: block;
+      }
     }
   }
 
@@ -307,7 +318,7 @@ nav {
 @media (min-width: 900px) {
   // Navigation Bar
   nav {
-    margin: 4%;
+    margin: 3% 4% 4% 4%;
     img {
       width: 15%;
     }
@@ -351,7 +362,7 @@ nav {
         height: 40px;
         width: 50%;
         border-radius: 3px;
-        margin: 0;
+        margin-bottom: 0;
       }
     }
 
@@ -360,8 +371,195 @@ nav {
       margin: 2% 0 10% 0;
     }
   }
+}
+
+// Second Section
+.second-section {
+
+  .second-section-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+
+    .second-section-content {
+
+      h2 {
+        font-size: 2.3rem;
+        text-align: left;
+        padding: 0 0 2% 9%;
+      }
+
+      p {
+        width: 70%;
+        font-size: 0.9rem;
+        padding: 1% 4%;
+      }
+
+      .arrow-text {
+        margin: 0 70% 0 5%;
+        font-size: 0.9rem;
+        display: inline-block;
+      }
+
+      .arrow {
+        width: 16px;
+        margin: 0 0 0 27%;
+        position: relative;
+        bottom: 28px;
+        // display: inline-block;
+      }
+
+      .short-line {
+        width: 153px;
+        margin:-4% 0 5% 9%;
+      }
+
+      .testimonial-box {
+        height: 205px;
+        width: 325px;
+        margin: 0 0 0 8.5%;
+
+        .quotes {
+          padding: 8% 0 0 9%;
+        }
+
+        .testimonial-text {
+          width: 84%;
+          font-size: 0.75rem;
+          line-height: 22px;
+          padding: 1% 0 5% 4%;
+        }
+
+        .kyle {
+          position: relative;
+          left: 45px;
+          bottom: 37px;
+        }
+
+        .founder-huddle {
+          position: relative;
+          left: 45px;
+          bottom: 42px;
+        }
+      }
+    }
+
+    .section-image {
+      width: 60%;
+      margin: 10% 6% 10% 0;
+      }
+    }
+  }
+
+// Third Section
+.third-section {
+
+  .third-section-container {
+    padding: 7% 0 4% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  .third-section-content {
+    width: 50%;
+    padding-right: 14%;
+
+    h3 {
+      font-size: 1.9rem;
+    }
+
+    p {
+      font-size: 0.89rem;
+      padding: 4% 0 0 0;
+      line-height: 1.4rem;
+    }
+  }
+
+  form {
+    height: 150px;
+
+    input {
+      color: hsl(0, 0%, 75%);
+      height: 43px;
+      width:430px;
+      border-radius: 3px;
+      border-style: solid;
+      border-width: 0.1em;
+      padding-left: 10px;
+      margin: 3% 0 6% 0;
+      display: block;
+    }
+  }
+}
+
+// Last Section
+.last-section {
+  .last-section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7% 0 0 5%;
+
+    .last-section-1 {
+      width: 220px;
+      .last-section-logo {
+        width: 150px;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-size: 0.86rem;
+        padding-bottom: 0;
+        margin-top: 20px;
+
+        img {
+          width: 15px;
+        }
+      }
+    }
+
+    a {
+      color: #fff;
+      font-size: 0.86rem;
+      padding-bottom: 25%;
+    }
+
+    .last-section-a {
+      display: flex;
+      flex-direction: column;
+      margin: 1% 0 0 14%;
+    }
+
+    .last-section-2, .last-section-3 {
+      padding-bottom: 0;
+      width: 80px;
+    }
+    .last-section-3 {
+      margin-top: -2%;
+    }
+  }
+
+  .last-section-4 {
+    width: 30%;
+    margin: 0 0% 10% 13%;
+
+    i {
+      margin: 0 3%;
+    }
+  }
+}
+
 
 }
 
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }

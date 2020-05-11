@@ -1,7 +1,6 @@
 .btn-third-section, .btn-first-section {
-  display: inline-block;
   border-radius: 3px;
-  padding: 3% 36%;
+  padding: 3% 37%;
   margin: 4% auto;
   color: #fff;
   font-size: 0.65rem;
@@ -14,7 +13,7 @@
 }
 
 .btn-third-section {
-  padding: 4% 29%;
+  padding: 4% 29.5%;
 }
 
 @media (min-width: 900px) {
@@ -22,6 +21,11 @@
     padding: 2.2% 10%;
     font-size: 0.7rem;
     margin: 2% 2%;
+  }
+
+  .btn-third-section {
+    padding: 3% 7%;
+    font-size: 0.7rem;
   }
 }
 * {
@@ -83,7 +87,7 @@ nav ul a {
 }
 
 .first-section {
-  margin-bottom: 15%;
+  margin-bottom: 6%;
 }
 .first-section .first-section-container {
   display: flex;
@@ -97,6 +101,7 @@ nav ul a {
 .first-section .first-section-content {
   width: 90%;
   text-align: center;
+  padding-bottom: 3%;
 }
 .first-section .first-section-content h2 {
   line-height: 2.2rem;
@@ -106,7 +111,10 @@ nav ul a {
   padding: 7% 10%;
   font-size: 0.8rem;
 }
-.first-section .first-section-content input {
+.first-section .first-section-content form {
+  height: 150px;
+}
+.first-section .first-section-content form input {
   color: #070439;
   height: 35px;
   width: 90%;
@@ -114,7 +122,7 @@ nav ul a {
   border-style: solid;
   border-width: 0.1em;
   padding-left: 20px;
-  margin-top: 3%;
+  margin: 3% 0 5% 0;
 }
 
 .second-section-curve {
@@ -124,7 +132,7 @@ nav ul a {
 }
 
 .second-section {
-  background-color: #f6f6fe;
+  background-color: #F8F8FE;
 }
 .second-section .second-section-container {
   display: flex;
@@ -230,7 +238,10 @@ nav ul a {
   opacity: 95%;
   padding: 6% 4%;
 }
-.third-section input {
+.third-section form {
+  height: 100px;
+}
+.third-section form input {
   color: #bfbfbf;
   height: 35px;
   width: 240px;
@@ -238,7 +249,7 @@ nav ul a {
   border-style: solid;
   border-width: 0.1em;
   padding-left: 10px;
-  margin-top: 3%;
+  margin: 3% 0 5% 0;
   display: block;
 }
 
@@ -287,7 +298,7 @@ nav ul a {
 
 @media (min-width: 900px) {
   nav {
-    margin: 4%;
+    margin: 3% 4% 4% 4%;
   }
   nav img {
     width: 15%;
@@ -326,12 +337,159 @@ nav ul a {
     height: 40px;
     width: 50%;
     border-radius: 3px;
-    margin: 0;
+    margin-bottom: 0;
   }
   .first-section .first-section-container img {
     width: 80%;
     margin: 2% 0 10% 0;
   }
+
+  .second-section .second-section-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  .second-section .second-section-container .second-section-content h2 {
+    font-size: 2.3rem;
+    text-align: left;
+    padding: 0 0 2% 9%;
+  }
+  .second-section .second-section-container .second-section-content p {
+    width: 70%;
+    font-size: 0.9rem;
+    padding: 1% 4%;
+  }
+  .second-section .second-section-container .second-section-content .arrow-text {
+    margin: 0 70% 0 5%;
+    font-size: 0.9rem;
+    display: inline-block;
+  }
+  .second-section .second-section-container .second-section-content .arrow {
+    width: 16px;
+    margin: 0 0 0 27%;
+    position: relative;
+    bottom: 28px;
+  }
+  .second-section .second-section-container .second-section-content .short-line {
+    width: 153px;
+    margin: -4% 0 5% 9%;
+  }
+  .second-section .second-section-container .second-section-content .testimonial-box {
+    height: 205px;
+    width: 325px;
+    margin: 0 0 0 8.5%;
+  }
+  .second-section .second-section-container .second-section-content .testimonial-box .quotes {
+    padding: 8% 0 0 9%;
+  }
+  .second-section .second-section-container .second-section-content .testimonial-box .testimonial-text {
+    width: 84%;
+    font-size: 0.75rem;
+    line-height: 22px;
+    padding: 1% 0 5% 4%;
+  }
+  .second-section .second-section-container .second-section-content .testimonial-box .kyle {
+    position: relative;
+    left: 45px;
+    bottom: 37px;
+  }
+  .second-section .second-section-container .second-section-content .testimonial-box .founder-huddle {
+    position: relative;
+    left: 45px;
+    bottom: 42px;
+  }
+  .second-section .second-section-container .section-image {
+    width: 60%;
+    margin: 10% 6% 10% 0;
+  }
+
+  .third-section .third-section-container {
+    padding: 7% 0 4% 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+  .third-section .third-section-content {
+    width: 50%;
+    padding-right: 14%;
+  }
+  .third-section .third-section-content h3 {
+    font-size: 1.9rem;
+  }
+  .third-section .third-section-content p {
+    font-size: 0.89rem;
+    padding: 4% 0 0 0;
+    line-height: 1.4rem;
+  }
+  .third-section form {
+    height: 150px;
+  }
+  .third-section form input {
+    color: #bfbfbf;
+    height: 43px;
+    width: 430px;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 0.1em;
+    padding-left: 10px;
+    margin: 3% 0 6% 0;
+    display: block;
+  }
+
+  .last-section .last-section-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 7% 0 0 5%;
+  }
+  .last-section .last-section-container .last-section-1 {
+    width: 220px;
+  }
+  .last-section .last-section-container .last-section-1 .last-section-logo {
+    width: 150px;
+    margin-bottom: 0;
+  }
+  .last-section .last-section-container .last-section-1 p {
+    font-size: 0.86rem;
+    padding-bottom: 0;
+    margin-top: 20px;
+  }
+  .last-section .last-section-container .last-section-1 p img {
+    width: 15px;
+  }
+  .last-section .last-section-container a {
+    color: #fff;
+    font-size: 0.86rem;
+    padding-bottom: 25%;
+  }
+  .last-section .last-section-container .last-section-a {
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0 0 14%;
+  }
+  .last-section .last-section-container .last-section-2, .last-section .last-section-container .last-section-3 {
+    padding-bottom: 0;
+    width: 80px;
+  }
+  .last-section .last-section-container .last-section-3 {
+    margin-top: -2%;
+  }
+  .last-section .last-section-4 {
+    width: 30%;
+    margin: 0 0% 10% 13%;
+  }
+  .last-section .last-section-4 i {
+    margin: 0 3%;
+  }
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 
 /*# sourceMappingURL=style.css.map */
